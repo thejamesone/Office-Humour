@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Office Humour</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" charset="utf-8" />
+    <meta property="og:title" content="Office Humour" />
+    <meta property="og:description" content="Office Humour is a speculative design piece that explores the culture that might emerge when data points like laughter function as a performance metric." />
+
+    <meta property="og:image" content="http://www.wifitapestry.com/img/5.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.1/mootools-yui-compressed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="functions.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/nqu8nxa.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Merriweather:300&display=swap" rel="stylesheet">
+    <script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+    </script>
+</head>
+
+<body>
+  <div id="title">
+      Office Humour</br></br>
+
+      <img src="image/logo.png" class="thumb">
+  </div>
+    <div id="wrapper">
+
+        <!-- <img id="image" src="aspect.gif" width="100%"> -->
+        <iframe src="https://player.vimeo.com/video/377564261" frameborder="0" allow="autoplay; fullscreen" allowfullscreen webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    </div>
+
+    <div id="text">
+        <div id="head">
+            <p>
+                Office Humour is a speculative design piece that explores the culture that might emerge when data points like laughter function as a performance metric.
+            </p>
+        </div>
+
+        <div id="para">
+            <p>
+                The piece raises questions about agency at multiple levels. Humans can adapt their culture to algorithmic motoring. But is that ok? Do we allow humans and machines the agency to develop their culture together, or should one always be subject to the other? Who has agency in this situation? The humans who create the laughter, or the algorithm who instigates it? <br/><br/>
+                <a href="mr/7.jpg" target="_blank"><img src="image/7.jpg" class="thumb"></a>
+                The piece functions on the basis of a neural network to take live measurements of laughter from its environment and places them within the narrative of a satirical productivity product. Participants are invited to interact with the product. As they do, they experience how laughter — a very natural and personal sound — can be turned into a data point and used to police and monitor their performance in an inhuman way. <br/><br/>
+                The piece tells a story that encourages participants to reflect on the sorts of data they gather in their work and the purposes to which any data may be put in the future.<br/><br/>
+            </p>
+
+            <p>
+                <h2>The Laugh Detector</h2>
+
+                <a href="mr/4.jpg" target="_blank"><img src="image/4.jpg" class="right"></a>
+                <a href="mr/5.jpg" target="_blank"><img src="image/5.jpg" class="right-second"></a>
+                <a href="mr/8.jpg" target="_blank"><img src="image/8.jpg" class="thumb"></a>
+
+                The Laugh Detector runs an open-source tensorflow classification model, categorising laughter verses non-laughter. A raspberry pi 4 samples the sound from the environment every three seconds, classifies it, and renders a visualisation. The visualisation is printed by a thermal receipt printer joining to the previous visualisation. The result is a live trace of the laughter in the environment which slowly begins the fill up the space it’s in.
+                <br/><br/>
+
+                <h2>The Can of Laughter</h2>
+                <a href="mr/3.jpg" target="_blank"><img src="image/3.jpg" class="right"></a>
+                <a href="mr/1.jpg" target="_blank"><img src="image/1.jpg" class="thumb"></a>
+
+                The Can of Laughter is an interactive can. Upon pushing the button on top of the can the sounds of stock laughter emerges from a speaker on the bottom. Inside the can is a raspberry pi zero with a sound hat, and battery pack.<br/><br/>
+
+                <h2>The Joke Book</h2>
+                <a href="mr/2.jpg" target="_blank"><img src="image/2.jpg" class="right"></a>
+                <a href="mr/6.jpg" target="_blank"><img src="image/6.jpg" class="thumb"></a>
+
+                The Joke Book, designed and edited almost completely by a text generation neural network. The neural network was trained with a large corpus of cleaned jokes and anecdotes. The results are presented in the book unedited, only cleaned of profanities.
+
+            </p>
+        </div>
+        <div id="colofon">
+            Office Humour is a project by James O'Neill and Frauke Hein of <a href="https://www.fjordnet.com/offices/dublin/">Fjord Dublin</a>
+            <br/>
+            Office Humour was pressented at the <a href="https://2019.epicpeople.org/">2019 EPIC conference</a> in RISD
+        </div>
+    </div>
+
+    <div id="images">
+        <p>
+
+            <div class="divcol" style="width:45%">
+                <a href="mr/5.jpg" target="_blank"><img src="image/5.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/6.jpg" target="_blank"><img src="image/6.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/4.jpg" target="_blank"><img src="image/4.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/8.jpg" target="_blank"><img src="image/8.jpg" class="thumb"></a><br/><br/>
+            </div>
+            <div class="divcol" style="width:45%">
+                <a href="mr/1.jpg" target="_blank"><img src="image/1.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/2.jpg" target="_blank"><img src="image/2.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/3.jpg" target="_blank"><img src="image/3.jpg" class="thumb"></a><br/><br/>
+                <a href="mr/7.jpg" target="_blank"><img src="image/7.jpg" class="thumb"></a><br/><br/>
+
+            </div>
+
+
+
+            <!-- <img src="thumb/2.jpg" class="thumb"> -->
+        </p>
+        <br/>
+
+    </div>
+
+</body>
+
+</html>
