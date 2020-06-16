@@ -8,6 +8,20 @@ body {
 
 }
 
+.UXBanner{
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 10%;
+    max-width: 150px;
+    min-width: 100px;
+    height: auto;
+}
+
+#UXImg{
+      display: none;
+}
+
 h1 {
     font-size: 1.5em;
     font-weight: 400;
@@ -166,6 +180,18 @@ iframe {
 }
 
 @media only screen and (max-width: 800px) {
+
+  .UXBanner{
+        display: none;
+  }
+
+  #UXImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+  }
+
 
   .left {
         display:none;
